@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.airobotapp.FirstFragment"
+        android:name="com.example.airobotapp.fragments.BluetoothFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_first">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="com.example.airobotapp.SecondFragment"
+        android:name="com.example.airobotapp.fragments.InteractionFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_second">
 
